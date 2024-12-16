@@ -2,9 +2,9 @@ package com.codedifferently.labs.partA.ex01;
 
 public class ShoppingCart {
     public static String name() {
-        String response = "";
-        String custName = "Smith";
-        String firstName;
+        String response = "Hakim";
+        String custName = "Hakim Smith";
+        String firstName = "Hakim";
         int spaceIdx;
 
         // Get the index of the space character (" ") in custName.
