@@ -14,7 +14,8 @@ public class AlgoChallenge {
 
     public static String missingLetter(String letter, int n) {
 
-        return null;
+        return letter.substring(0, n) + letter.substring(n + 1);
+
     }
 
     /* Problem 2
