@@ -30,7 +30,12 @@ public class AlgoChallenge {
 
     public static String wordOfDay(String word) {
 
-        return null;
+        if (word == null || word.length() == 0) {
+            throw new IllegalArgumentException("Word must have a length of 1 or more.");
+        }
+
+        char lastLetter = word.charAt(word.length() - 1);
+        return lastLetter + word + lastLetter;
     }
 
 }
