@@ -2,7 +2,7 @@ package com.codedifferently.labs.partC;
 
 public class AlgoChallenge {
 
-/* Problem 1
+/* Problem 1 hello
     The instructor provided you with a non-empty string and a number n.
     The instructor wants you to remove the letter at index n and provide a new string.
     Tip: Value of n should be a valid index of a given letter in the original string,

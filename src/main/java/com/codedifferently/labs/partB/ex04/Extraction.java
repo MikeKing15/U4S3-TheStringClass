@@ -7,7 +7,7 @@ public class Extraction {
 
         String part1 = greeting.substring(0, 5);
         String part2 = greeting.substring(7, 11);
-        String part3 = "g " + greeting.substring(9);      
+        String part3 = "g " + greeting.substring(9);
 
         String response = part1 + "\n" + part2 + "\n" + part3;
 
